@@ -1,0 +1,216 @@
+html{
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+/* main color */
+.font-primary{
+  color: rgb(67, 93, 228);
+}
+.font-secondary{
+  color: rgb(109, 127, 223);
+}
+
+/* ----------- */
+
+.sidebar{
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 17rem;
+  height: 100%;
+  /* background: rgb(67, 93, 228); */
+  background: linear-gradient(rgb(67, 93, 228), rgb(109, 127, 223));
+  align-items: center;
+  text-align: center;
+}
+
+.profile{
+  overflow: auto;
+  margin: auto;
+  padding-top: 130px;
+}
+
+.profile-img{
+  width: 40%;
+  height: auto;
+  border: 5px solid rgba(38, 45, 213, 0.77);
+  border-radius: 50%;
+  transition: all .5s ease;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  padding-left: 100px;
+  /* display: block; */
+  width: 60px;
+}
+
+.line{
+  width: 100%;
+  height: 1px;
+  color: white;
+}
+
+.tag-name{
+  font-family: cursive;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.profile-img:hover{
+  width: 50%;
+  /* height: auto;
+  border-radius: 50%; */
+}
+
+.navbar{
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.navbar-item a{
+  text-transform: uppercase;
+  color: white;
+  display: block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: .4s;
+  text-decoration: none;
+  font-family: 'Saira Extra Condensed';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar-item a:hover{
+  font-size: 2rem;
+}
+
+.nav{
+
+}
+
+section{
+  height: 100vh;
+}
+
+.content{
+  width: 100vh;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.content p{
+  font-family: 'Chivo';
+}
+
+a.bg-primary{
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  background-color: rgb(67, 93, 228);
+}
+
+a.bg-primary:hover{
+  background-color: rgb(26, 58, 226);
+}
+
+.main{
+  flex-shrink: 0;
+  position: inherit;
+  margin-left: 18rem;
+  height: 100%;
+  top: 0;
+  overflow: auto;
+  right: 0;
+  padding: 0px 10px;
+}
+
+h1 {
+  font-family: 'Saira Extra Condensed';
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.page-top{
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+
+.sosmed{
+  position: absolute;
+  top: 90px;
+  right: 100px;
+  float: right;
+  border-radius: 50%;
+}
+.sosmed a{
+  transition: 0.4s;
+  margin: 20px;
+  display: block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+.sosmed a:hover{
+  background-color: rgb(67, 93, 228);
+  color: white;
+}
+
+a.btn{
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.outline-white{
+  font-size: 1.1rem;
+  /* border: 1px solid white; */
+  /* border-radius: 5px; */
+  color: white;
+}
+
+.outline-white:hover{
+  border-radius: 0 0 5px 0;
+  color: rgb(26, 58, 226);
+  background-color: white;
+}
+
+.btn-top{
+  color: white;
+  text-decoration: none;
+  background-color: rgb(67, 93, 228);
+  /* border-radius: 50%; */
+  padding: 10px 10px;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.go-back{
+  position: absolute;
+  top: 10px;
+  left: 0;
+}

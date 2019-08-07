@@ -3,3 +3,7 @@ $(document).ready(function(){
       direction: "up"
    }, 2000);
 });
+
+function toggle(){
+  console.log("okey");
+}

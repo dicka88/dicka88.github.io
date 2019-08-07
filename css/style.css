@@ -11,6 +11,18 @@ html{
   color: rgb(109, 127, 223);
 }
 
+.font-purple{
+  color: rgb(170, 14, 168);
+}
+
+.font-green{
+  color: rgb(13, 142, 2);
+}
+
+.font-red{
+  color: rgb(171, 0, 26);
+}
+
 /* ----------- */
 
 .sidebar{
@@ -51,10 +63,13 @@ ul li{
   width: 60px;
 }
 
-.line{
-  width: 100%;
-  height: 1px;
+hr.line{
+  position: relative;
+  left: -50%;
+  width: 200%;
+  /* height: 1px; */
   color: white;
+  border: 1px solid rrgb(67, 93, 228);
 }
 
 .tag-name{
@@ -186,6 +201,13 @@ a.btn{
   padding: 10px 20px;
 }
 
+button{
+  background: transparent;
+  padding: 10px 20px;
+  outline-color: transparent;
+  border: none;
+}
+
 .outline-white{
   font-size: 1.1rem;
   /* border: 1px solid white; */
@@ -197,6 +219,7 @@ a.btn{
   border-radius: 0 0 5px 0;
   color: rgb(26, 58, 226);
   background-color: white;
+  cursor: pointer;
 }
 
 .btn-top{
@@ -211,6 +234,6 @@ a.btn{
 
 .go-back{
   position: absolute;
-  top: 10px;
+  top: 0;
   left: 0;
 }

@@ -65,8 +65,7 @@ ul li{
 
 hr.line{
   position: relative;
-  left: -50%;
-  width: 200%;
+  width: 100%;
   /* height: 1px; */
   color: white;
   border: 1px solid rrgb(67, 93, 228);
@@ -215,6 +214,20 @@ button{
   color: white;
 }
 
+.outline-white2{
+  font-size: 1.1rem;
+  /* border: 1px solid white; */
+  /* border-radius: 5px; */
+  color: white;
+}
+
+.outline-white2:hover{
+  border-radius: 0 0 0 5px;
+  color: rgb(26, 58, 226);
+  background-color: white;
+  cursor: pointer;
+}
+
 .outline-white:hover{
   border-radius: 0 0 5px 0;
   color: rgb(26, 58, 226);
@@ -223,6 +236,7 @@ button{
 }
 
 .btn-top{
+  border-radius: 5px 0 5px 0;
   color: white;
   text-decoration: none;
   background-color: rgb(67, 93, 228);
@@ -236,4 +250,12 @@ button{
   position: absolute;
   top: 0;
   left: 0;
+}
+
+
+.toggle-hide{
+  float:right;
+  position: absolute;
+  top: 0;
+  left: 14rem;
 }

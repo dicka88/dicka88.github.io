@@ -5,105 +5,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="./img/icon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    //font family//
+    <!-- //font family// -->
     <link href='https://fonts.googleapis.com/css?family=Saira Extra Condensed' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Chivo' rel='stylesheet'>
-    //----------//
+    <!-- //----------// -->
     <link rel="stylesheet" href="./css/style.css">
     <title>Home | CV Dicka</title>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   </head>
 
   <body>
-    <div class="sidebar">
-      <div class="go-back">
-        <button class="btn outline-white" onclick="toggle()"><i class="fa fa-arrow-left"></i></button>
-      </div>
-      <div class="toggle-hide">
-        <button class="btn outline-white2" onclick="toggleSide()"><i id="toggle" class="fa fa-list"></i></button>
-      </div>
-      <div class="main-side">
-        <div class="profile">
-          <img class="profile-img" src="./img/dk.png" alt="">
+    <div class="main-window">
+      <div class="sidebar">
+<!--         <div class="go-back">
+          <button class="btn outline-white" onclick="toggleback()"><i class="fa fa-arrow-left"></i></button>
         </div>
-        <div class="menu">
-          <ul class="navbar">
-            <li class="navbar-item"><a href="#about">About</a></li>
-            <li class="navbar-item"><a href="#interest">Interest</a></li>
-            <li class="navbar-item"><a href="#education">Education</a></li>
-            <li class="navbar-item"><a href="#hobbies">Hobbies</a></li>
-            <li class="navbar-item"><a href="#skill">Skills</a></li>
-          </ul>
+        <div class="toggle-hide">
+          <button class="btn outline-white2" onclick="toggleSide()"><i id="toggle" class="fa fa-list"></i></button>
+        </div> -->
+        <div class="main-side">
+          <div class="profile">
+            <img class="profile-img" src="./img/me.jpg" title="Don't Zoom Me >///<">
+          </div>
+          <div class="menu">
+            <ul class="navbar">
+              <li id="nav1" class="navbar-item active"><a href="#about" onclick="changenav('1')">About</a></li>
+              <li id="nav2" class="navbar-item"><a href="#interest" onclick="changenav('2')">Interest</a></li>
+              <li id="nav3" class="navbar-item"><a href="#education" onclick="changenav('3')">Education</a></li>
+              <li id="nav4" class="navbar-item"><a href="#hobbies" onclick="changenav('4')">Hobbies</a></li>
+              <li id="nav5" class="navbar-item"><a href="#skill" onclick="changenav('5')">Skills</a></li>
+            </ul>
+          </div>
         </div>
       </div>
+      <div class="main">
+          <div class="" id="about"></div>
+          <section>
+            <div class="content">
+              <h1>
+                Dicka <span class="font-primary">Ismaji</span>
+              </h1>
+              <h3>
+                Jatinom, Klaten . <span class="font-primary">17</span> years old. <span class="font-primary">Email : </span>dickaismaji@gmail.com
+              </h3>
+              <br>
+              <p>Hello, My name is Dicka Ismaji, i am newbie programmer, this web made cause i want to done my submission on my beloved site <span class="font-primary"><a class="dicoding" href="https://dicoding.com">DICODING INDONESIA</a></span>, so i wish for that submission i can passed certification :) </p>
+            </div>
+            <div class="sosmed sosmed1">
+              <a target="_blank" href="https://www.facebook.com/dickha.itsmadjie"><i class="fa fa-facebook"></i></a>
+              <a target="_blank" href="https://www.instagram.com/dickaismaji"><i class="fa fa-instagram"></i></a>
+              <a target="_blank" href="https://github.com/dicka88"><i class="fa fa-github"></i></a>
+              <a target="_blank" href="https://linkedin.com/in/dickaismaji"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </section>
+
+          <hr class="line">
+
+          <div class="" id="interest"></div>
+          <section class="">
+            <div class="content">
+              <h1>Inte<span class="font-secondary">rest</span></h1>
+            
+              <p>I am Interest about web programming right now, my basically is backend programmer, cause my motivation i also learn front-end, since my first time write 'hello world' i fall in love with that name programming. </p>
+              <p>Otherwise about programming, i also take a spare time to exercise, because i know that looking at monitor so tired, when i feel not happy to coding, take a rest is better choice to our small brain :).</p>
+              <p>
+                not just programming, i also like imagine my mind to draw on my phone using infinity design, you can see my art on my instagram, <a href="#">go top</a>
+              </p>
+            </div>
+            <div class="sosmed sosmed2">
+              <a><img src="https://img.icons8.com/ios/50/000000/programming.png"></a>
+              <a><img src="https://img.icons8.com/ios/50/000000/web-design.png"></a>
+            </div>
+          </section>
+
+          <hr class="line">
+
+          <div class="" id="education"></div>
+          <section class="">
+            <div class="content">
+              <h1>E<span class="font-primary">ducati</span>on</h1>
+            </div>
+            <div class="edu">
+              <ul>
+                <li>2007-2013 -> $SDN_2_Bengking</li>
+                <li>2013-2016 -> $SMPN_2_Jatinom</li>
+                <li>2016-now  -> $SMKN_2_Klaten</li>
+              </ul>
+              <p>
+                School is day with my all friend, learn, and keep smile :)
+              </p>
+            </div>
+            <div class="sosmed sosmed3">
+              <a><img src="https://img.icons8.com/ios-glyphs/30/000000/education.png"></a>
+            </div>
+          </section>
+
+          <hr class="line">
+
+          <div class="" id="hobbies"></div>
+          <section class="">
+            <div class="content">
+              <h1><span class="font-primary">Hobb</span>ies</h1>
+
+            <div class="exercise">
+              <p>
+                I say one more, programming looks good, but don't left your habit hobbies, emm.... programming is my one of my favourite hobbies, emm... it's okey. ignore that :v
+              </p>
+              <p>
+                i am also like pysichal exercise like
+              </p>
+              <ul>
+                <li>Football</li>
+                <li>Futsal</li>
+                <li>Volleyball</li>
+                <li>Badminton</li>
+                <li>Push up, Sit up, Squad jump 100x if i can :v </li>
+              </ul>
+              <p>
+                all is about ball? all people like that? so what is wrong?
+              </p>
+            </div>
+            </div>
+            <div class="sosmed sosmed4">
+              <a><i class="fa fa-facebook"></i></a>
+              <a><img src="https://img.icons8.com/ios-filled/50/000000/football2.png"></a>
+              <a><img src="https://img.icons8.com/ios-glyphs/30/000000/volleyball-2.png"></a>
+              <a><img src="https://img.icons8.com/ios/50/000000/exercise.png"></a>
+            </div>
+          </section>
+
+          <hr class="line">
+
+          <div class="" id="skill"></div>
+          <section class="">
+            <div class="content">
+              <h1>S<span class="font-primary">kill</span>s</h1>
+
+            <div class="">
+              <p>
+                This is about web programming. i am interest to backend and frontend developers,
+                keep learning as u can. i using PHP, Javascript , SQL as backend.
+              </p>
+              <p>
+                "Backend is what is true of the web, all data will processed on that"
+              </p>
+              <p>
+                In Frontend i using jquery, bootstrap, font awesome, and any plugin to improve quality and perfomance
+              </p>
+            </div>
+            </div>
+            <div class="sosmed sosmed5">
+              <a><img src="https://img.icons8.com/ios/50/000000/html-filetype.png"></a>
+              <a><img src="https://img.icons8.com/ios/50/000000/php-logo.png"></a>
+              <a><img src="https://img.icons8.com/ios-filled/50/000000/javascript.png"></a>
+              <a><img src="https://img.icons8.com/ios/50/000000/postgreesql.png"></a>
+              <a><i class="fa fa-github"></i></a>
+              <a><img src="https://img.icons8.com/ios/50/000000/css.png"></a>
+            </div>
+          </section>
+      </div>
+
+      <div class="page-top">
+        <a class="btn-top" href="#" id="btn-top"><i class="fa fa-arrow-up"></i></a>
+      </div>
     </div>
-    <div class="main">
 
-        <div class="" id="about"></div>
-        <section>
-          <div class="content">
-            <h1>Dicka <span class="font-primary">Ismaji</span></h1>
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-          </div>
-          <div class="sosmed">
-            <a target="_blank" href="https://www.facebook.com/dickha.itsmadjie"><i class="fa fa-facebook"></i></a>
-            <a target="_blank" href="https://www.instagram.com/dickaismaji"><i class="fa fa-instagram"></i></a>
-            <a target="_blank" href="https://github.com/dicka88"><i class="fa fa-github"></i></a>
-            <a target="_blank" href="https://linkedin.com/u/dickaismaji"><i class="fa fa-linkedin"></i></a>
-          </div>
-        </section>
-
-        <hr class="line">
-
-        <div class="" id="interest"></div>
-        <section class="">
-          <div class="content">
-            <h1>Inte<span class="font-secondary">rest</span></h1>
-          </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
-
-        <hr class="line">
-
-        <div class="" id="education"></div>
-        <section class="">
-          <div class="content">
-            <h1>E<span class="font-primary">ducati</span>on</h1>
-          </div>
-          <div class="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </section>
-
-        <hr class="line">
-
-        <div class="" id="hobbies"></div>
-        <section class="">
-          <div class="content">
-            <h1><span class="font-primary">Hob</span>ies</h1>
-          </div>
-          <div class="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </section>
-
-        <hr class="line">
-
-        <div class="" id="skill"></div>
-        <section class="">
-          <div class="content">
-            <h1>S<span class="font-primary">kill</span>s</h1>
-          </div>
-          <div class="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </section>
+<!--     <div class="second-window">
+          <button class="btn" onclick="togglemain()"><i class="fa fa-arrow-left"></i></button>
     </div>
-
-    <div class="page-top">
-      <a class="btn-top" href="#" id="btn-top"><i class="fa fa-arrow-up"></i></a>
-    </div>
+     -->
 
   </body>
 </html>

@@ -26,11 +26,12 @@ html{
 /* ----------- */
 
 .sidebar{
+  /*display: flex;*/
   left: 0;
   top: 0;
   position: fixed;
-  width: 17rem;
-  height: 100%;
+  width: 20%;
+  height: 100vh;
   /* background: rgb(67, 93, 228); */
   background: linear-gradient(rgb(67, 93, 228), rgb(109, 127, 223));
   align-items: center;
@@ -39,7 +40,7 @@ html{
 
 .profile{
   overflow: auto;
-  margin: auto;
+  margin: 0;
   padding-top: 130px;
 }
 
@@ -49,6 +50,7 @@ html{
   border: 5px solid rgba(38, 45, 213, 0.77);
   border-radius: 50%;
   transition: all .5s ease;
+  margin: 0;
 }
 
 ul {
@@ -57,10 +59,16 @@ ul {
   padding: 0;
 }
 
-ul li{
-  padding-left: 100px;
-  /* display: block; */
-  width: 60px;
+.menu ul li{
+  display: block; 
+  width: 17rem; 
+  text-align: justify-all;
+}
+
+.menu ul li.active{
+  border-width: 17rem;
+  /*border-top: 1px solid white;*/
+  border-bottom: 1px solid white; 
 }
 
 hr.line{
@@ -120,7 +128,7 @@ section{
 }
 
 .content{
-  width: 100vh;
+  width: 70%;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -137,12 +145,17 @@ a.bg-primary{
   background-color: rgb(67, 93, 228);
 }
 
+.dicoding:hover {
+    font-size: 50px;
+    content: url(./img/me.jpg); /* no need for qoutes */
+    display: block;
+}
+
 a.bg-primary:hover{
   background-color: rgb(26, 58, 226);
 }
 
 .main{
-  flex-shrink: 0;
   position: inherit;
   margin-left: 18rem;
   height: 100%;
@@ -152,15 +165,26 @@ a.bg-primary:hover{
   padding: 0px 10px;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6, li{
   font-family: 'Saira Extra Condensed';
   text-transform: uppercase;
-  font-size: 5rem;
+}
+
+h1 {
+  margin-bottom: 0 !important;
+  font-size: 6rem;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
+}
+
+h3{
+  margin-top: 0 !important;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: grey;
 }
 
 .page-top{
@@ -171,10 +195,32 @@ h2 {
 
 .sosmed{
   position: absolute;
-  top: 90px;
   right: 100px;
   float: right;
   border-radius: 50%;
+}
+
+.sosmed img{
+  filter: brightness(0) invert(1);
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+}
+
+.sosmed1{
+  top: 10vh;
+}
+.sosmed2{
+  top: 130vh;
+}
+.sosmed3{
+  top: 240vh;
+}
+.sosmed4{
+  top: 355vh;
+}
+.sosmed5{
+  top: 470vh;
 }
 .sosmed a{
   transition: 0.4s;
@@ -258,4 +304,43 @@ button{
   position: absolute;
   top: 0;
   left: 14rem;
+}
+
+.main-window{
+  /*display: flex;*/
+}
+
+.second-window{
+  top: 0;
+  margin: 0;
+  background-color: red;
+  display: grid;
+  overflow: hidden  background-color: red;
+}
+
+.second-window,
+.main-window{
+  transition: 5s;
+}
+
+p{
+  color: #3f4042;
+  text-indent: 2rem;
+}
+
+.edu ul{
+  margin-bottom: 4rem;
+}
+
+.edu ul li{
+  margin-left: 1.5rem;
+  width: 20rem;
+  display: block;
+  font-size: 2rem;
+}
+
+.exercise ul li{
+  width: 30rem;
+  font-size: 1.5rem;
+  margin-left: 3rem;
 }

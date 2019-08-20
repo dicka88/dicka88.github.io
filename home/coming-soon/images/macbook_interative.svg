@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="900px" viewBox="0 0 1440 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>macbook_interative</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="macbook" fill="#FFFFFF">
+            <g id="macbook_interative">
+                <rect id="Rectangle-24-Copy-5" x="294" y="578" width="127" height="20" rx="10"></rect>
+                <rect id="Rectangle-24-Copy-11" x="614" y="806" width="137" height="20" rx="10"></rect>
+                <rect id="Rectangle-24-Copy-18" x="970" y="578" width="137" height="20" rx="10"></rect>
+                <rect id="Rectangle-24-Copy-2" x="657" y="338" width="127" height="20" rx="10"></rect>
+                <rect id="Rectangle-2" x="246" y="24" width="148" height="48" rx="24"></rect>
+                <rect id="Rectangle-10-Copy-2" x="1111" y="24" width="83" height="48" rx="24"></rect>
+                <path d="M400.244064,758.014166 C393.77933,758.014166 388.538408,752.76768 388.538408,746.296082 C388.538408,739.822737 393.77933,734.576251 400.244064,734.576251 C406.708799,734.576251 411.949721,739.822737 411.949721,746.296082 C411.949721,752.76768 406.708799,758.014166 400.244064,758.014166 M400.242318,717 C384.09183,717 371,729.691532 371,745.352344 C371,745.65469 371.143156,752.944194 373.658869,758.139997 C380.860335,774.246464 400.214385,792.08836 400.242318,791.993986 C400.271997,792.056902 419.543994,774.319866 426.780377,758.237867 C428.927723,754.426213 429.482891,745.974512 429.482891,745.352344 C429.482891,729.691532 416.391061,717 400.242318,717" id="pindrop"></path>
+                <rect id="Rectangle-24-Copy-18" x="933" y="806" width="137" height="20" rx="10"></rect>
+                <rect id="background" fill-opacity="0.01" x="0" y="0" width="1440" height="900" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

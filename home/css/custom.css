@@ -1,0 +1,200 @@
+.navbar-nav > li > a:after{
+	content: '';
+	display: block;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .4s ease, background-color .4s ease;
+}
+
+.navbar-nav > li > a:hover:after{
+	width: 100%;
+	background: #fff;
+}
+
+ul > .active > a:after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 100%;
+	background: #fff;
+}
+
+#senja-special {
+  position: relative;
+  bottom: 0;
+  z-index: 10;
+  padding-bottom: 2em;
+}
+@media screen and (max-width: 768px) {
+  #senja-special {
+    padding-bottom: 3em;
+  }
+}
+#senja-special > div {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+}
+#senja-special .senja-block {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  min-height: 300px;
+  vertical-align: middle;
+  padding: 30px;
+  background: #fff;
+  z-index: 7;
+  flex-grow: 1;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  #senja-special .senja-block {
+    width: 100%;
+  }
+}
+#senja-special .senja-block > .overlay-darker {
+  z-index: 8;
+  opacity: .5;
+  background: #474747;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#senja-special .senja-block > .overlay {
+  background: #fff;
+  opacity: 1;
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#senja-special .senja-block > .senja-text {
+  position: relative;
+  z-index: 10;
+}
+#senja-special .senja-block > .senja-text .senja-special-icon {
+  font-size: 50px;
+  color: #BD79A5;
+  margin-bottom: 30px;
+  display: block;
+}
+#senja-special .senja-block h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.senja-text h2 {
+  color: #FA709A;
+}
+#senja-special .senja-block:hover > .overlay, #senja-special .senja-block:focus > .overlay {
+  opacity: 0;
+  z-index: 9;
+}
+#senja-special .senja-block:hover > .senja-text, #senja-special .senja-block:focus > .senja-text {
+  color: #fff;
+}
+#senja-special .senja-block:hover > .senja-text .senja-special-icon, #senja-special .senja-block:focus > .senja-text .senja-special-icon {
+  color: #fff;
+}
+#senja-special .senja-block:hover h2, #senja-special .senja-block:focus h2 {
+  color: #fff;
+}
+#senja-special .senja-block:hover .btn, #senja-special .senja-block:focus .btn {
+  border: 2px solid #fff;
+  background: transparent;
+}
+#senja-special .senja-block:hover .btn:hover, #senja-special .senja-block:focus .btn:hover {
+  background-color: #FA709A;
+  border: 2px solid #FA709A;
+  color: #fff;
+}
+#senja-special .senja-block:hover p {color:#fff;}
+
+.btn-special{color:#fff;background-image: linear-gradient(120deg, #BD79A5 , #FA709A, #FEE140); border: none;}
+.spc{margin-top: 15px}
+
+.pricing-area{}
+.single-price{
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.05);
+    padding-bottom: 35px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.single-price:hover{
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+.prc-head{
+  /*background-image: linear-gradient(120deg, #BD79A5 , #FA709A, #FEE140);*/
+  background: #FA709A;
+  text-align: center;
+  padding: 40px;
+}
+.prc-head span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    display: block;
+}
+.prc-head h5{
+    font-size: 60px;
+    color: #ffffff;
+    letter-spacing: 0;
+    font-weight: 500;
+    line-height: 53px;
+}
+.prc-head h5 small{
+    color: #fff;
+}
+.single-price ul{
+    text-align: center;
+    margin-top: 10px;
+}
+.single-price ul li{
+        font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    line-height: 16px;
+    margin-top: 19px;
+    letter-spacing: 0;
+}
+.single-price a{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #333;
+    border: 1px solid #BD79A5;
+    padding: 5px 21px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 44px;
+}
+.single-price a:hover{
+    color: #fff;
+    background-image: linear-gradient(120deg, #BD79A5 , #FA709A, #FEE140);
+    border: 1px solid transparent;
+}
+.color_grey{
+  color: #b9b9b9;
+}

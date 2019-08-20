@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="667px" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>iphone_outlines</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="25" y="408" width="324" height="168" rx="12"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="324" height="168" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="25" y="600" width="156" height="48" rx="24"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="156" height="48" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="193" y="600" width="156" height="48" rx="24"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="156" height="48" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.33">
+        <g id="iphone">
+            <g id="iphone_outlines">
+                <circle id="Oval-1-Copy" stroke="#FFFFFF" stroke-width="2" cx="313" cy="60" r="36"></circle>
+                <circle id="Oval-5" stroke="#FFFFFF" stroke-width="2" cx="187.5" cy="252.5" r="132.5"></circle>
+                <use id="Rectangle-85" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                <use id="Rectangle-85-Copy" stroke="#FFFFFF" mask="url(#mask-4)" stroke-width="4" xlink:href="#path-3"></use>
+                <use id="Rectangle-85-Copy-2" stroke="#FFFFFF" mask="url(#mask-6)" stroke-width="4" xlink:href="#path-5"></use>
+                <rect id="background" fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="375" height="667"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

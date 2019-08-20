@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="900px" viewBox="0 0 1440 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>macbook_outlines</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.33">
+        <g id="macbook">
+            <g id="macbook_outlines">
+                <rect id="Rectangle-10" stroke="#FFFFFF" stroke-width="2" x="818" y="24" width="139" height="48" rx="24"></rect>
+                <rect id="Rectangle-10-Copy" stroke="#FFFFFF" stroke-width="2" x="969" y="24" width="130" height="48" rx="24"></rect>
+                <rect id="Rectangle-10-Copy-2" stroke="#FFFFFF" stroke-width="2" x="1111" y="24" width="83" height="48" rx="24"></rect>
+                <rect id="Rectangle-3" stroke="#FFFFFF" stroke-width="2" x="246" y="96" width="948" height="312" rx="12"></rect>
+                <rect id="Rectangle-4" stroke="#FFFFFF" stroke-width="2" x="246" y="420" width="628" height="204" rx="12"></rect>
+                <rect id="Rectangle-5" stroke="#FFFFFF" stroke-width="2" x="886" y="420" width="308" height="204" rx="12"></rect>
+                <rect id="Rectangle-6" stroke="#FFFFFF" stroke-width="2" x="246" y="636.888672" width="308" height="227.111328" rx="12"></rect>
+                <rect id="Rectangle-7" stroke="#FFFFFF" stroke-width="2" x="566" y="636.888672" width="308" height="227.111328" rx="12"></rect>
+                <rect id="Rectangle-8" stroke="#FFFFFF" stroke-width="2" x="885.5" y="636.888672" width="308" height="227.111328" rx="12"></rect>
+                <rect id="Rectangle-2" stroke="#FFFFFF" stroke-width="2" x="246" y="24" width="148" height="48" rx="24"></rect>
+                <rect id="Rectangle-9" stroke="#FFFFFF" stroke-width="2" x="727" y="24" width="79" height="48" rx="24"></rect>
+                <rect id="background" fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="1440" height="900" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

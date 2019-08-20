@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="667px" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>iphone_content</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.66">
+        <g id="iphone" fill="#FFFFFF">
+            <g id="iphone_content">
+                <rect id="Rectangle-85-Copy-4" x="193" y="600" width="156" height="48" rx="24"></rect>
+                <path d="M251.9406,300.1998 L122.708452,300.1998 C119.174502,300.1998 117.948033,297.039411 119.984435,294.138531 L157.33554,240.51109 C159.368636,237.615169 163.071184,237.10111 165.562139,239.613553 L173.109387,247.129395 C175.600342,249.643491 179.4781,249.415387 181.724422,246.6798 L199.847072,224.600051 C202.091742,221.869422 205.572798,222.004962 207.582753,224.919066 L254.712552,294.112084 C256.720854,297.02784 255.472897,300.1998 251.9406,300.1998 Z M243.427715,233.863364 C235.177975,233.863364 228.495207,227.177289 228.495207,218.932508 C228.495207,210.682769 235.179628,204 243.427715,204 C251.675802,204 258.360223,210.686074 258.360223,218.932508 C258.363529,227.177289 251.675802,233.863364 243.427715,233.863364 Z" id="image"></path>
+                <g id="secondary" opacity="0.5" transform="translate(68.000000, 485.000000)">
+                    <rect id="Rectangle-24-Copy-15" x="0" y="0" width="238" height="14" rx="7"></rect>
+                    <rect id="Rectangle-24-Copy-16" x="0" y="24" width="238" height="14" rx="7"></rect>
+                    <rect id="Rectangle-24-Copy-18" x="0" y="48" width="176" height="14" rx="7"></rect>
+                </g>
+                <rect id="Rectangle-24-Copy-17" x="68" y="446" width="238" height="20" rx="10"></rect>
+                <rect id="background" fill-opacity="0.01" x="0" y="0" width="375" height="667"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="768px" height="1024px" viewBox="0 0 768 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ipad_interative</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ipad" fill="#FFFFFF">
+            <g id="ipad_interative" transform="translate(384.000000, 512.000000) rotate(-270.000000) translate(-384.000000, -512.000000) translate(-128.000000, 128.000000)">
+                <rect id="Rectangle-24-Copy-18" x="824.353642" y="266" width="95.9933972" height="20" rx="10"></rect>
+                <rect id="Rectangle-24-Copy-18" x="824.353642" y="470" width="95.9933972" height="20" rx="10"></rect>
+                <rect id="Rectangle-24-Copy-18" x="823.652961" y="686" width="95.9933972" height="20" rx="10"></rect>
+                <path d="M392,288 C372.116914,288 356,304.118899 356,324 C356,343.883086 372.116914,360 392,360 C411.883086,360 428,343.883086 428,324 C428,304.118899 411.883086,288 392,288 Z M403.554624,325.729223 L386.312028,336.315006 C384.898472,337.174654 383.508741,336.479788 383.508741,334.776375 L383.508741,313.245464 C383.508741,311.54205 384.898472,310.84917 386.312028,311.706833 L403.584404,322.449457 C404.694204,323.06888 405.349363,324.710748 403.554624,325.729223 Z" id="play"></path>
+                <rect id="Rectangle-24-Copy" x="100" y="474" width="370" height="14" rx="7"></rect>
+                <rect id="Rectangle-24-Copy-18" x="100" y="698" width="160" height="20" rx="10"></rect>
+                <rect id="Rectangle-2-Copy" x="44" y="36" width="136" height="48" rx="24"></rect>
+                <rect id="background" fill-opacity="0.01" x="-2.76207089e-16" y="1.13686838e-13" width="1024" height="768"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

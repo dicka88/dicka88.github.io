@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="768px" height="1024px" viewBox="0 0 768 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ipad_outlines</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="44" y="36" width="136" height="48" rx="24"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="136" height="48" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="44" y="120" width="696" height="408" rx="12"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="696" height="408" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="48" y="552" width="692" height="192" rx="12"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="692" height="192" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="764" y="120" width="216" height="192" rx="12"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="216" height="192" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="764" y="336" width="216" height="192" rx="12"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="216" height="192" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="764" y="552" width="216" height="192" rx="12"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="216" height="192" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.33">
+        <g id="ipad">
+            <g id="ipad_outlines" transform="translate(384.000000, 512.000000) rotate(-270.000000) translate(-384.000000, -512.000000) translate(-128.000000, 128.000000)">
+                <use id="Rectangle-2" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                <circle id="Oval-1" stroke="#FFFFFF" stroke-width="2" cx="944" cy="60" r="36"></circle>
+                <use id="Rectangle-59" stroke="#FFFFFF" mask="url(#mask-4)" stroke-width="4" xlink:href="#path-3"></use>
+                <use id="Rectangle-59-Copy" stroke="#FFFFFF" mask="url(#mask-6)" stroke-width="4" xlink:href="#path-5"></use>
+                <use id="Rectangle-60" stroke="#FFFFFF" mask="url(#mask-8)" stroke-width="4" xlink:href="#path-7"></use>
+                <use id="Rectangle-60-Copy" stroke="#FFFFFF" mask="url(#mask-10)" stroke-width="4" xlink:href="#path-9"></use>
+                <use id="Rectangle-60-Copy-2" stroke="#FFFFFF" mask="url(#mask-12)" stroke-width="4" xlink:href="#path-11"></use>
+                <rect id="background" fill-opacity="0.01" fill="#FFFFFF" x="-2.76207089e-16" y="1.13686838e-13" width="1024" height="768"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

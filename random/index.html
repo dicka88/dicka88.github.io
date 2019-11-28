@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Image</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./material-icon/deploy.css">
+    <style>
+        img {
+            width: 500px;
+            height: auto;
+        }
+        
+        .bg-load {
+            background-color: rgb(219, 219, 219);
+            border-radius: 10px;
+            width: 500px;
+            height: 281px;
+            text-align: center;
+            margin: auto;
+        }
+        
+        .image img {
+            border-radius: 10px;
+        }
+        
+        .mid {
+            text-align: center;
+        }
+        
+        .mt10 {
+            margin-top: 5%;
+        }
+        
+        div.title.mid {
+            margin-top: auto;
+            margin-bottom: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt10">
+        <div class="row">
+            <div class="title mid">
+                <h3>Random Image</h3>
+            </div>
+            <div class="mid image">
+                <div class="bg-load">
+                    <img src="https://source.unsplash.com/1280x720/?mountain" alt="">
+                </div>
+            </div>
+            <div class="col l12">
+                <div class="col l2"></div>
+                <div class="col l8">
+                    <div class="chips chips-placeholder"></div>
+                    <div class="mid search">
+                        <button class="btn waves-effect waves-light ">
+                            <i class="material-icons find ">search</i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col l2 "></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.chips');
+        var instances = M.Chips.init(elems);
+
+        $('.chips-placeholder').chips({
+            placeholder: 'Enter a tag',
+            secondaryPlaceholder: '+Tag',
+            data: [{
+                tag: 'mountain',
+            }]
+        });
+        i = 1
+        $('.search button').click(function() {
+            i = i + 1
+            let url = "https://source.unsplash.com/1280x720/?"
+            let chip = M.Chips.getInstance($('.chips-placeholder')).chipsData
+            let params = []
+            chip.forEach(function(res) {
+                params.push(res.tag)
+            })
+
+            params = params.join(',')
+
+            link = url + params
+
+            $('.mid.image').html(`<div class="bg-load">
+                    <img src="${link+','+i}" alt="">
+                </div>`).show()
+
+        })
+    })
+</script>
+
+</html

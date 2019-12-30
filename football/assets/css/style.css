@@ -1,0 +1,347 @@
+body {
+    overscroll-behavior-y: contain;
+}
+
+.club-match div {
+    color: white;
+}
+
+.info-club>tbody>tr>td {
+    word-wrap: break-word;
+}
+
+.team-icon {
+    margin: auto;
+    height: 20em;
+}
+
+.team-icon-title.card-title {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.mt-3 {
+    margin-top: 1em;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+
+.starred {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: #c2c2c2;
+    z-index: 1;
+}
+
+.starred.checked {
+    color: #ffd700;
+}
+
+.btn-back {
+    position: fixed;
+    bottom: 1em;
+    left: 1em;
+}
+
+.icon-club {
+    width: 8em !important;
+    height: auto;
+}
+
+.card-image.icon-club {
+    margin: 1em;
+}
+
+#toast-container {
+    top: 10%;
+    right: 10% !important;
+    left: 10% !important;
+    min-width: 50px !important;
+}
+
+.btn.round {
+    border-radius: 40px;
+}
+
+.top-right {
+    position: absolute;
+    top: 0.7em;
+    right: 0.7em;
+}
+
+.top-right a:hover {
+    border-radius: 5px !important;
+}
+
+.modal-round {
+    border-radius: 5px;
+}
+
+.notif {
+    top: 10em;
+    position: relative;
+}
+
+.signal {
+    max-width: 13em !important;
+}
+
+.mb7 {
+    margin-bottom: 10px;
+}
+
+.responsive-img.radius {
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+}
+
+.responsive-img.radius:hover {
+    transform: scale(1.1);
+}
+
+.progress {
+    margin: auto !important;
+    top: 20em;
+    width: 50% !important;
+}
+
+.versus {
+    color: white;
+    position: relative;
+    bottom: 50%;
+}
+
+.club.icon1 {
+    max-width: 50px;
+    margin-right: 3em;
+}
+
+.club.icon2 {
+    max-width: 50px;
+    margin-left: 3em;
+}
+
+.club-match-header {
+    border-radius: 8px 8px 0 0;
+}
+
+
+/* blue */
+
+.club-match.blue.darken-1 {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(14, 73, 236, 1) 0%, rgba(66, 165, 245, 1) 100%);
+    padding: 1em 5%;
+    /*border-radius: 4px 4px 0 0;*/
+}
+
+.club-match-info.blue.darken-1 {
+    background-color: #40c4ff;
+    border-radius: 0 0 8px 8px;
+    color: white;
+}
+
+
+/* red */
+
+.club-match.red {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(251, 0, 0, 1) 0%, rgba(223, 180, 183, 1) 100%);
+    padding: 1em 5%;
+    /*border-radius: 4px 4px 0 0;*/
+}
+
+.club-match-info.red {
+    background-color: #fc5353;
+    border-radius: 0 0 8px 8px;
+    color: white;
+}
+
+
+/* green */
+
+.club-match.green {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 106, 11, 1) 0%, rgba(143, 255, 143, 1) 100%);
+    padding: 1em 5%;
+    /*border-radius: 4px 4px 0 0;*/
+}
+
+.club-match-info.green {
+    background-color: #75ff6e;
+    border-radius: 0 0 8px 8px;
+    color: white;
+}
+
+
+/* black */
+
+.club-match.grey.darken-4 {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(134, 134, 134, 1) 100%);
+    padding: 1em 5%;
+    /*border-radius: 4px 4px 0 0;*/
+}
+
+.club-match-info.grey.darken-4 {
+    background-color: #666666;
+    border-radius: 0 0 8px 8px;
+    color: white;
+}
+
+.stadium-img {
+    max-width: 450px !important;
+}
+
+.stadium-img:hover {
+    transform: scale(1.1);
+}
+
+.sidenav-overlay {
+    z-index: 1;
+}
+
+#player_image {
+    align-self: center;
+    max-width: 80%;
+}
+
+#nav {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+
+.card {
+    margin: 0 0 0 0 !important;
+}
+
+#body-content {
+    margin-top: 5em !important;
+}
+
+.dropdown-content {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-logo {
+    margin-right: 0.3em;
+    position: relative;
+    top: 0.1em;
+    width: 32px;
+}
+
+.img-logo:hover {
+    transform: scale(1.3);
+}
+
+.rem-mt {
+    margin-top: 10px !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+
+.responsive-img {
+    transition: 0.4s;
+}
+
+.h-zoom:hover {
+    transform: scale(1.2);
+}
+
+.card-title {
+    font-weight: bold !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    border-radius: 0 10px 0 0;
+}
+
+.ml-5 {
+    margin-left: 10px !important;
+}
+
+.justify {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.font-red {
+    color: red !important;
+}
+
+.modal-trigger {
+    color: #1565c0 !important;
+}
+
+.font-green {
+    color: green !important;
+}
+
+.font-black {
+    color: black !important;
+}
+
+.font-white {
+    color: white !important;
+}
+
+.font-default {
+    color: #1E88E5 !important;
+}
+
+.secondary-content {
+    color: white !important;
+}
+
+.modal {
+    max-height: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .card.horizontal {
+        display: block;
+    }
+    .card.horizontal .card-image {
+        max-width: 100% !important;
+    }
+    .card.horizontal .card-image img.stadium-img {
+        width: 100% !important;
+    }
+    .card-image.icon-club {
+        padding-top: 1.5em;
+        margin: auto;
+    }
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

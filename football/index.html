@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#00897B">
+
+    <link rel="icon" href="./assets/img/icon/Icon-512.png">
+    <link rel="apple-touch-icon" href="./assets/img/icon/Icon-512.png">
+    
+    <link rel="stylesheet" href="./vendor/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="./vendor/material-icon/deploy.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="manifest" href="./manifest.json">
+
+    <title>My Football</title>
+</head>
+
+<body>
+    <ul id="color_plate" class="dropdown-content">
+        <li><a data-color="default" href="#"><i class="material-icons font-default right-align">brightness_1</i>default</a></li>
+        <li><a data-color="red" href="#"><i class="material-icons font-red right-align">brightness_1</i>red</a></li>
+        <li><a data-color="green" href="#"><i class="material-icons font-green right-align">brightness_1</i>green</a></li>
+        <li><a data-color="black" href="#"><i class="material-icons font-black right-align">brightness_1</i>black</a></li>
+    </ul>
+    <!-- navigation -->
+    <nav id="nav" class="blue darken-1" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo" id="logo-container"><img class="responsive-img img-logo" src="./assets/img/icon/Icon-36.png">Football</a>
+            <a href="#" class="sidenav-trigger" data-target="nav-mobile"><i class="material-icons">dehaze</i></a>
+            <a href="#" class="secondary-content right ml-5 dropdown-trigger" data-target="color_plate"><i class="material-icons font-white">color_lens</i></a>
+
+            <!-- nav -->
+            <ul class="topnav right hide-on-med-and-down">
+                <li><a class="waves-effect" href="#home"><i class="material-icons">home</i></a></li>
+                <li><a class="waves-effect" href="#schedule">Schedule<i class="material-icons right">query_builder</i></a></li>
+                <li><a class="waves-effect" href="#standings"><i class="material-icons left">stars</i> Standings</a></li>
+                <li><a class="waves-effect" href="#starredTeam"><i class="material-icons left">star_border</i> Favorite Team</a></li>
+                <li><a class="waves-effect" href="#stadium">Stadium<i class="material-icons left">local_convenience_store</i></a></li>
+                <li><a class="waves-effect tooltipped" data-position="bottom" data-tooltip="feedback" href="#feedback"><i class="material-icons">feedback</i></a></li>
+            </ul>
+
+            <!-- SIDEBAR -->
+            <ul class="sidenav" id="nav-mobile">
+                <div id="card-nav" class="card-panel blue darken-1 rem-mt">
+                    <div class="float top-right settings">
+                        <a class="waves-effect" href="#settings"><i class="material-icons">settings</i></a>
+                    </div>
+                    <div class="col s2 center">
+                        <img class="circle responsive-img z-depth-3 h-zoom" src="./assets/img/icon/Icon-96.png">
+                    </div>
+                    <div class="col-2 center">
+                        <h4 style="color: white;" id="account-user-name">Your Account Name</h4>
+                    </div>
+                </div>
+                <li><a class="waves-effect" href="#home">Home<i class="material-icons right">home</i></a></li>
+                <div class="divider"></div>
+                <li><a class="waves-effect" href="#schedule">Schedule<i class="material-icons right">query_builder</i></a></li>
+                <div class="divider"></div>
+                <li><a class="waves-effect" href="#standings">Standings<i class="material-icons right">stars</i></a></li>
+                <div class="divider"></div>
+                <li><a class="waves-effect" href="#starredTeam">Favorite Team<i class="material-icons right">star_border</i></a></li>
+                <div class="divider"></div>
+                <li><a class="waves-effect" href="#stadium">Stadium<i class="material-icons right">local_convenience_store</i></a></li>
+                <div class="divider"></div>
+                <li><a class="waves-effect" href="#feedback">Feedback<i class="material-icons right">feedback</i></a></li>
+            </ul>
+            <!-- nav -->
+        </div>
+    </nav>
+    <!-- end navigation -->
+
+    <!-- content container -->
+    <div class="container" id="body-content">
+
+    </div>
+    <!-- end content -->
+
+    <!-- service worker -->
+    <script src="./sw-reg.js">
+    </script>
+    <!-- end service worker -->
+
+    <script src="./vendor/jquery/jquery.min.js"></script>
+    <script src="./vendor/materialize/materialize.min.js"></script>
+    <script src="./vendor/idb/idb.js"></script>
+    <script src="./vendor/lazyload/lazyload.min.js"></script>
+    <script src="./assets/js/indexDb.js"></script>
+    <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>
